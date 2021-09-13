@@ -322,6 +322,9 @@ typedef enum {
     NC = (int)0xFFFFFFFF
 } PinName;
 
+//To debugging
+#define LED1	LED2 //LED1 is the power in this board
+
 #ifdef __cplusplus
 }
 #endif
