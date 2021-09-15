@@ -14,5 +14,5 @@
 
 How to use?
  - Drop the mbed-os folder to your program path.
- - Insert TARGET_BLACK_F407VE.json in your target.json or
- - Rename target.json.MRE to target.json and replace it with your (Caution, this will exclude other custom boards that you have add from selection in Mbed Studio)
+ - Insert mbed-os/targets/TARGET_BLACK_F407VE.json in your target.json or
+ - Rename mbed-os/targets/target.json.MRE to target.json and replace it with your (Caution, this will exclude other custom boards that you have add from selection in Mbed Studio)
