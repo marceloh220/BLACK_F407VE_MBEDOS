@@ -20,7 +20,7 @@ Why to Use? This custom board already have:
  - Pin mapping to SPI's touch in display bus
  - Pin mapping to SPI's NRF24/Flash
  - Use console Serial1 default out
- - 
+
 How to use?
  - Drop the mbed-os folder to your program path.
  - Insert [mbed-os/targets/TARGET_BLACK_F407VE.json](https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/mbed-os/targets/TARGET_BLACK_F407VE.json) in your target.json
