@@ -3,7 +3,7 @@
  
  This board is based in STM32F407VETx microcontroller
  
- <img src="https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/doc/black_f407ve.jpg" width="340" height="460" />
+ <img src="https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/doc/black_f407ve.jpg" />
  
  - Other documentation can be found in doc
    - [Schematic](https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/doc/STM32F407VET6_schematics.pdf)
@@ -14,5 +14,6 @@
 
 How to use?
  - Drop the mbed-os folder to your program path.
- - Insert mbed-os/targets/TARGET_BLACK_F407VE.json in your target.json or
- - Rename mbed-os/targets/target.json.MRE to target.json and replace it with your (Caution, this will exclude other custom boards that you have add from selection in Mbed Studio)
+ - Insert [mbed-os/targets/TARGET_BLACK_F407VE.json](https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/mbed-os/targets/TARGET_BLACK_F407VE.json) in your target.json or
+ - Rename [mbed-os/targets/target.json.MRE](https://github.com/marceloh220/BLACK_F407VE_MBEDOS/blob/main/mbed-os/targets/targets.json.MRE) to target.json and replace it with your
+   - Caution, this will exclude other custom boards that you have add from selection in Mbed Studio
