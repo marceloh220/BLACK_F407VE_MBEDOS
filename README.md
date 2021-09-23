@@ -14,12 +14,15 @@
 
 Why to Use? This custom board already have:
  - LSE oscillator enabled
+ - RTC enabled
  - CAN enabled
+ - USB device Fast Speed enabled
  - Pin mapping to keys and leds
  - Pin mapping to Display's backlight and touch PEN (INT)
  - Pin mapping to SPI's touch in display bus
  - Pin mapping to SPI's NRF24/Flash
- - Use console Serial1 default out
+ - STDIO use console Serial1 default out, with baud rate 115200
+ - Float printf enabled
 
 How to use?
  - Drop the mbed-os folder to your program path.
