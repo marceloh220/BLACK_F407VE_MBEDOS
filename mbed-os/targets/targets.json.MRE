@@ -1836,11 +1836,20 @@
             "ARDUINO_UNO"
         ],
         "program_cycle_s": 2,
+		"config": {
+            "usb_speed": {
+                "help": "USE_USB_OTG_FS or USE_USB_OTG_HS or USE_USB_HS_IN_FS",
+                "value": "USE_USB_HS_IN_FS"
+            }
+        },
         "components_add": [
-            "SD"        ],
+            "SD"
+		],
         "device_has_add": [
             "EMAC",
-            "CAN"
+            "CAN",
+			"RTC",
+			"USBDEVICE"
         ],
         "device_name": "STM32F407VETx",
         "overrides": {

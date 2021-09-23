@@ -281,7 +281,7 @@ typedef enum {
     SD_SCK      = PB_10,
     SD_CS       = PE_2,
 
-// Standardized LED and button names
+// Standardized LED and button names, LED1 is the power LED
     LED2    = PA_6,
     LED3    = PA_7,
     K_UP    = PA_0,
@@ -322,8 +322,7 @@ typedef enum {
     NC = (int)0xFFFFFFFF
 } PinName;
 
-//To debugging
-#define LED1	LED2 //LED1 is the power in this board
+#define LED1    LED2    //for debugging
 
 #ifdef __cplusplus
 }
